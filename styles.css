@@ -38,3 +38,28 @@ h2 {
     margin-bottom: 10px;
     color: #4CAF50;
 }
+.experience {
+    margin-bottom: 30px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.job p {
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
