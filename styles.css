@@ -1,4 +1,3 @@
-/* General Styles */
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +19,26 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Header Section */
+.navbar {
+    background-color: #4CAF50; /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+}
+
+.navbar ul {
+    list-style-type: none; /* Quitar viñetas */
+    display: flex; /* Disposición en fila */
+    justify-content: space-around; /* Espaciado entre elementos */
+}
+
+.navbar a {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
 header {
     display: flex;
     align-items: center;
@@ -30,102 +48,42 @@ header {
 }
 
 .profile-picture {
-    flex: 1;
+    margin-right: 20px;
 }
 
 .profile-picture img {
-    border-radius: 50%;
-    max-width: 150px;
+    width: 120px;
+    height: auto;
+    border-radius: 50%; /* Para que la imagen sea circular */
 }
 
-.header-info {
-    flex: 2;
-    text-align: left;
-    padding-left: 20px;
-}
-
-header h1 {
-    margin-bottom: 5px;
-    font-size: 24px;
-}
-
-header p {
-    margin-bottom: 5px;
-}
-
-/* Section Styles */
-section {
-    margin-bottom: 30px;
+h1 {
+    margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 22px;
+    margin-top: 20px;
     margin-bottom: 10px;
-    color: #4CAF50;
+    color: #4CAF50; /* Cambiar el color a verde */
 }
 
-/* Experience Section */
-.experience {
-    margin-bottom: 30px;
+.section-title {
+    color: #4CAF50; /* Asegurarse que el color sea el mismo */
 }
 
 .job {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
-.job h3 {
-    font-size: 18px;
-    margin-bottom: 5px;
+.degree {
+    margin-bottom: 10px;
 }
 
-.job p {
-    margin-bottom: 5px;
-}
-
-ul {
+.skills ul {
     list-style-type: disc;
     padding-left: 20px;
 }
 
-ul li {
-    margin-bottom: 5px;
-}
-
-/* Education Section */
-.degree {
-    margin-bottom: 20px;
-}
-
-.degree h3 {
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-
-.degree p {
-    font-size: 16px;
-    color: #777;
-}
-
-/* Skills Section */
-.skills ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.skills li {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    margin-bottom: 5px;
-    border-radius: 4px;
-}
-
-/* Contact Section */
-.contact a {
-    color: #4CAF50;
-    text-decoration: none;
-}
-
-.contact a:hover {
-    text-decoration: underline;
+.contact {
+    margin-top: 20px;
 }
