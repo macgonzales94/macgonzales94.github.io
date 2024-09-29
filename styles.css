@@ -1,3 +1,26 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
 header {
     display: flex;
     align-items: center;
@@ -29,6 +52,8 @@ header h1 {
 header p {
     margin-bottom: 5px;
 }
+
+/* Section Styles */
 section {
     margin-bottom: 30px;
 }
@@ -38,6 +63,8 @@ h2 {
     margin-bottom: 10px;
     color: #4CAF50;
 }
+
+/* Experience Section */
 .experience {
     margin-bottom: 30px;
 }
@@ -63,6 +90,8 @@ ul {
 ul li {
     margin-bottom: 5px;
 }
+
+/* Education Section */
 .degree {
     margin-bottom: 20px;
 }
@@ -76,8 +105,11 @@ ul li {
     font-size: 16px;
     color: #777;
 }
+
+/* Skills Section */
 .skills ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .skills li {
@@ -88,6 +120,7 @@ ul li {
     border-radius: 4px;
 }
 
+/* Contact Section */
 .contact a {
     color: #4CAF50;
     text-decoration: none;
@@ -95,25 +128,4 @@ ul li {
 
 .contact a:hover {
     text-decoration: underline;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-}
-
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
